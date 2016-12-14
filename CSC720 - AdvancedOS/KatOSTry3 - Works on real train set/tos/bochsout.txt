@@ -1,0 +1,425 @@
+00000000000i[      ] Bochs x86 Emulator 2.6.8.svn
+00000000000i[      ]   Built from SVN snapshot after release 2.6.8
+00000000000i[      ] Compiled on Nov 13 2016 at 10:58:47
+00000000000i[      ] System configuration
+00000000000i[      ]   processors: 1 (cores=1, HT threads=1)
+00000000000i[      ]   A20 line support: yes
+00000000000i[      ] IPS is set to 4000000
+00000000000i[      ] CPU configuration
+00000000000i[      ]   SMP support: no
+00000000000i[      ]   Using pre-defined CPU configuration: p3_katmai
+00000000000i[      ] Optimization configuration
+00000000000i[      ]   RepeatSpeedups support: no
+00000000000i[      ]   Fast function calls: no
+00000000000i[      ]   Handlers Chaining speedups: no
+00000000000i[      ] Devices configuration
+00000000000i[      ]   NE2000 support: no
+00000000000i[      ]   PCI support: yes, enabled=yes
+00000000000i[      ]   SB16 support: no
+00000000000i[      ]   USB support: no
+00000000000i[      ]   VGA extension support: vbe
+00000000000i[MEM0  ] allocated memory at 0x7fcdd875d010. after alignment, vector=0x7fcdd875e000
+00000000000i[MEM0  ] 1.00MB
+00000000000i[MEM0  ] mem block size = 0x00020000, blocks=8
+00000000000i[MEM0  ] rom at 0xfffe0000/131072 ('/usr/local/share/bochs/BIOS-bochs-latest')
+00000000000i[PLUGIN] init_dev of 'pci' plugin device by virtual method
+00000000000i[DEV   ] i440FX PMC present at device 0, function 0
+00000000000i[PLUGIN] init_dev of 'pci2isa' plugin device by virtual method
+00000000000i[DEV   ] PIIX3 PCI-to-ISA bridge present at device 1, function 0
+00000000000i[PLUGIN] init_dev of 'cmos' plugin device by virtual method
+00000000000i[CMOS  ] Using local time for initial clock
+00000000000i[CMOS  ] Setting initial clock to: Tue Dec  6 20:48:56 2016 (time0=1481086136)
+00000000000i[PLUGIN] init_dev of 'dma' plugin device by virtual method
+00000000000i[DMA   ] channel 4 used by cascade
+00000000000i[PLUGIN] init_dev of 'pic' plugin device by virtual method
+00000000000i[PLUGIN] init_dev of 'pit' plugin device by virtual method
+00000000000i[PLUGIN] init_dev of 'vga' plugin device by virtual method
+00000000000i[MEM0  ] Register memory access handlers: 0x0000000a0000 - 0x0000000bffff
+00000000000i[VGA   ] interval=200000, mode=realtime
+00000000000i[MEM0  ] rom at 0xc0000/41472 ('/usr/local/share/bochs/VGABIOS-lgpl-latest')
+00000000000i[PLUGIN] init_dev of 'floppy' plugin device by virtual method
+00000000000i[DMA   ] channel 2 used by Floppy Drive
+00000000000i[FLOPPY] fd0: 'image/disk_image' ro=0, h=2,t=80,spt=18
+00000000000i[FLOPPY] Using boot sequence floppy, none, none
+00000000000i[FLOPPY] Floppy boot signature check is enabled
+00000000000i[PLUGIN] init_dev of 'acpi' plugin device by virtual method
+00000000000i[DEV   ] ACPI Controller present at device 1, function 3
+00000000000i[PLUGIN] init_dev of 'ioapic' plugin device by virtual method
+00000000000i[IOAPIC] initializing I/O APIC
+00000000000i[MEM0  ] Register memory access handlers: 0x0000fec00000 - 0x0000fec00fff
+00000000000i[IOAPIC] IOAPIC enabled (base address = 0xfec00000)
+00000000000i[PLUGIN] init_dev of 'keyboard' plugin device by virtual method
+00000000000i[KBD   ] will paste characters every 400 keyboard ticks
+00000000000i[PLUGIN] init_dev of 'harddrv' plugin device by virtual method
+00000000000i[PLUGIN] init_dev of 'pci_ide' plugin device by virtual method
+00000000000i[DEV   ] PIIX3 PCI IDE controller present at device 1, function 1
+00000000000i[PLUGIN] init_dev of 'unmapped' plugin device by virtual method
+00000000000i[PLUGIN] init_dev of 'biosdev' plugin device by virtual method
+00000000000i[PLUGIN] init_dev of 'speaker' plugin device by virtual method
+00000000000e[PCSPK ] Failed to open /dev/console: Permission denied
+00000000000e[PCSPK ] Deactivating beep on console
+00000000000i[PLUGIN] init_dev of 'extfpuirq' plugin device by virtual method
+00000000000i[PLUGIN] init_dev of 'parallel' plugin device by virtual method
+00000000000i[PAR   ] parallel ports disabled
+00000000000i[PLUGIN] init_dev of 'serial' plugin device by virtual method
+00000000000i[SER   ] com1 - inet client - socket_id: 7, ip:localhost, port:8888
+00000000000i[SER   ] com1 at 0x03f8 irq 4 (mode: socket-client)
+00000000000i[SER   ] com2: connect() failed (host:localhost, port:8899)
+00000000000i[SER   ] com2 at 0x02f8 irq 3 (mode: socket-client)
+00000000000i[PLUGIN] register state of 'pci' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'pci2isa' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'cmos' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'dma' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'pic' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'pit' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'vga' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'floppy' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'unmapped' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'biosdev' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'speaker' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'extfpuirq' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'serial' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'acpi' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'ioapic' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'keyboard' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'harddrv' plugin device by virtual method
+00000000000i[PLUGIN] register state of 'pci_ide' plugin device by virtual method
+00000000000i[SYS   ] bx_pc_system_c::Reset(HARDWARE) called
+00000000000i[CPU0  ] cpu hardware reset
+00000000000i[APIC0 ] allocate APIC id=0 (MMIO enabled) to 0x0000fee00000
+00000000000i[CPU0  ] CPUID[0x00000000]: 00000003 756e6547 6c65746e 49656e69
+00000000000i[CPU0  ] CPUID[0x00000001]: 00000673 00000000 00000000 0383fbff
+00000000000i[CPU0  ] CPUID[0x00000002]: 03020101 00000000 00000000 0c040843
+00000000000i[CPU0  ] CPUID[0x00000003]: 00000000 00000000 00000000 00000000
+00000000000i[PLUGIN] reset of 'pci' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'pci2isa' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'cmos' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'dma' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'pic' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'pit' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'vga' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'floppy' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'acpi' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'ioapic' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'keyboard' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'harddrv' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'pci_ide' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'unmapped' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'biosdev' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'speaker' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'extfpuirq' plugin device by virtual method
+00000000000i[PLUGIN] reset of 'serial' plugin device by virtual method
+00000004721i[BIOS  ] $Revision: 12898 $ $Date: 2016-03-17 18:14:27 +0100 (Do, 17. Mär 2016) $
+00000318071i[KBD   ] reset-disable command received
+00000320809i[BIOS  ] Starting rombios32
+00000321247i[BIOS  ] Shutdown flag 0
+00000321818i[BIOS  ] ram_size=0x00100000
+00000322217i[BIOS  ] ram_end=1MB
+00000362771i[BIOS  ] Found 1 cpu(s)
+00000376670i[BIOS  ] bios_table_addr: 0x000fa0c8 end=0x000fcc00
+00000376704d[PCI   ] i440FX PMC read  register 0x00 value 0x00008086
+00000376710d[PCI   ] i440FX PMC read  register 0x02 value 0x00001237
+00000376733d[PCI   ] i440FX PMC read  register 0x00 value 0x00008086
+00000376739d[PCI   ] i440FX PMC read  register 0x02 value 0x00001237
+00000376760d[PCI   ] i440FX PMC read  register 0x59 value 0x00000000
+00000704465i[PCI   ] i440FX PMC write to PAM register 59 (TLB Flush)
+00001032394i[P2ISA ] PCI IRQ routing: PIRQA# set to 0x0b
+00001032413i[P2ISA ] PCI IRQ routing: PIRQB# set to 0x09
+00001032432i[P2ISA ] PCI IRQ routing: PIRQC# set to 0x0b
+00001032451i[P2ISA ] PCI IRQ routing: PIRQD# set to 0x09
+00001032461i[P2ISA ] write: ELCR2 = 0x0a
+00001033231i[BIOS  ] PIIX3/PIIX4 init: elcr=00 0a
+00001039037d[PCI   ] i440FX PMC read  register 0x00 value 0x00008086
+00001039043d[PCI   ] i440FX PMC read  register 0x02 value 0x00001237
+00001039067d[PCI   ] i440FX PMC read  register 0x0a value 0x00000600
+00001039074d[PCI   ] i440FX PMC read  register 0x00 value 0x00008086
+00001039081d[PCI   ] i440FX PMC read  register 0x02 value 0x00001237
+00001040912i[BIOS  ] PCI: bus=0 devfn=0x00: vendor_id=0x8086 device_id=0x1237 class=0x0600
+00001040954d[PCI   ] i440FX PMC read  register 0x10 value 0x00000000
+00001040982d[PCI   ] i440FX PMC read  register 0x14 value 0x00000000
+00001041010d[PCI   ] i440FX PMC read  register 0x18 value 0x00000000
+00001041038d[PCI   ] i440FX PMC read  register 0x1c value 0x00000000
+00001041066d[PCI   ] i440FX PMC read  register 0x20 value 0x00000000
+00001041094d[PCI   ] i440FX PMC read  register 0x24 value 0x00000000
+00001041120d[PCI   ] i440FX PMC read  register 0x30 value 0x00000000
+00001041132d[PCI   ] i440FX PMC read  register 0x3d value 0x00000000
+00001043191i[BIOS  ] PCI: bus=0 devfn=0x08: vendor_id=0x8086 device_id=0x7000 class=0x0601
+00001045309i[BIOS  ] PCI: bus=0 devfn=0x09: vendor_id=0x8086 device_id=0x7010 class=0x0101
+00001045868i[BIOS  ] size=0x0010
+00001045913i[PIDE  ] new BM-DMA address: 0xc000
+00001046529i[BIOS  ] region 4: 0x0000c000
+00001048566i[BIOS  ] PCI: bus=0 devfn=0x0b: vendor_id=0x8086 device_id=0x7113 class=0x0680
+00001048798i[ACPI  ] new irq line = 11
+00001048810i[ACPI  ] new irq line = 9
+00001048835i[ACPI  ] new PM base address: 0xb000
+00001048849i[ACPI  ] new SM base address: 0xb100
+00001048877i[PCI   ] setting SMRAM control register to 0x4a
+00001212970i[CPU0  ] Enter to System Management Mode
+00001212981i[CPU0  ] RSM: Resuming from System Management Mode
+00001377002i[PCI   ] setting SMRAM control register to 0x0a
+00001382654d[PCI   ] i440FX PMC read  register 0x00 value 0x00008086
+00001382660d[PCI   ] i440FX PMC read  register 0x02 value 0x00001237
+00001382678d[PCI   ] i440FX PMC read  register 0x0a value 0x00000600
+00001382686d[PCI   ] i440FX PMC read  register 0x30 value 0x00000000
+00001391868i[BIOS  ] MP table addr=0x000fa1a0 MPC table addr=0x000fa0d0 size=0xc8
+00001393690i[BIOS  ] SMBIOS table addr=0x000fa1b0
+00001394358i[BIOS  ] Not enough memory for ACPI tables
+00001394385d[PCI   ] i440FX PMC read  register 0x59 value 0x00000030
+00001394394i[PCI   ] i440FX PMC write to PAM register 59 (TLB Flush)
+00001395117i[BIOS  ] bios_table_cur_addr: 0x000fa2cc
+00001522734i[VBIOS ] VGABios $Id: vgabios.c,v 1.76 2013/02/10 08:07:03 vruppert Exp $
+00001525741i[VBIOS ] VBE Bios $Id: vbe.c,v 1.65 2014/07/08 18:02:25 vruppert Exp $
+00014040245i[BIOS  ] Booting from 0000:7c00
+00024834665i[BIOS  ] int13_harddisk: function 00, ELDL out of range cc
+00476458486i[SER   ]  -- COM 1 : read byte [42]
+00476475150i[SER   ]  -- COM 1 : read byte [48]
+00476491814i[SER   ]  -- COM 1 : read byte [13]
+00547708478i[SER   ]  -- COM 1 : read byte [42]
+00547725142i[SER   ]  -- COM 1 : read byte [49]
+00547741806i[SER   ]  -- COM 1 : read byte [13]
+00614958470i[SER   ]  -- COM 1 : read byte [42]
+00614975134i[SER   ]  -- COM 1 : read byte [49]
+00614991798i[SER   ]  -- COM 1 : read byte [13]
+00682208462i[SER   ]  -- COM 1 : read byte [42]
+00682225126i[SER   ]  -- COM 1 : read byte [48]
+00682241790i[SER   ]  -- COM 1 : read byte [13]
+00750258454i[SER   ]  -- COM 1 : read byte [42]
+00750275118i[SER   ]  -- COM 1 : read byte [48]
+00750291782i[SER   ]  -- COM 1 : read byte [13]
+00814708446i[SER   ]  -- COM 1 : read byte [42]
+00814725110i[SER   ]  -- COM 1 : read byte [48]
+00814741774i[SER   ]  -- COM 1 : read byte [13]
+00882758438i[SER   ]  -- COM 1 : read byte [42]
+00882775102i[SER   ]  -- COM 1 : read byte [48]
+00882791766i[SER   ]  -- COM 1 : read byte [13]
+00954408430i[SER   ]  -- COM 1 : read byte [42]
+00954425094i[SER   ]  -- COM 1 : read byte [48]
+00954441758i[SER   ]  -- COM 1 : read byte [13]
+01019658422i[SER   ]  -- COM 1 : read byte [42]
+01019675086i[SER   ]  -- COM 1 : read byte [48]
+01019691750i[SER   ]  -- COM 1 : read byte [13]
+01088508414i[SER   ]  -- COM 1 : read byte [42]
+01088525078i[SER   ]  -- COM 1 : read byte [48]
+01088541742i[SER   ]  -- COM 1 : read byte [13]
+01158158406i[SER   ]  -- COM 1 : read byte [42]
+01158175070i[SER   ]  -- COM 1 : read byte [48]
+01158191734i[SER   ]  -- COM 1 : read byte [13]
+01218608398i[SER   ]  -- COM 1 : read byte [42]
+01218625062i[SER   ]  -- COM 1 : read byte [48]
+01218641726i[SER   ]  -- COM 1 : read byte [13]
+01281058390i[SER   ]  -- COM 1 : read byte [42]
+01281075054i[SER   ]  -- COM 1 : read byte [48]
+01281091718i[SER   ]  -- COM 1 : read byte [13]
+01346708382i[SER   ]  -- COM 1 : read byte [42]
+01346725046i[SER   ]  -- COM 1 : read byte [48]
+01346741710i[SER   ]  -- COM 1 : read byte [13]
+01411558374i[SER   ]  -- COM 1 : read byte [42]
+01411575038i[SER   ]  -- COM 1 : read byte [48]
+01411591702i[SER   ]  -- COM 1 : read byte [13]
+01473608366i[SER   ]  -- COM 1 : read byte [42]
+01473625030i[SER   ]  -- COM 1 : read byte [48]
+01473641694i[SER   ]  -- COM 1 : read byte [13]
+01531258358i[SER   ]  -- COM 1 : read byte [42]
+01531275022i[SER   ]  -- COM 1 : read byte [48]
+01531291686i[SER   ]  -- COM 1 : read byte [13]
+01592508350i[SER   ]  -- COM 1 : read byte [42]
+01592525014i[SER   ]  -- COM 1 : read byte [48]
+01592541678i[SER   ]  -- COM 1 : read byte [13]
+01658158342i[SER   ]  -- COM 1 : read byte [42]
+01658175006i[SER   ]  -- COM 1 : read byte [48]
+01658191670i[SER   ]  -- COM 1 : read byte [13]
+01722208334i[SER   ]  -- COM 1 : read byte [42]
+01722224998i[SER   ]  -- COM 1 : read byte [48]
+01722241662i[SER   ]  -- COM 1 : read byte [13]
+01784258326i[SER   ]  -- COM 1 : read byte [42]
+01784274990i[SER   ]  -- COM 1 : read byte [48]
+01784291654i[SER   ]  -- COM 1 : read byte [13]
+01852308318i[SER   ]  -- COM 1 : read byte [42]
+01852324982i[SER   ]  -- COM 1 : read byte [48]
+01852341646i[SER   ]  -- COM 1 : read byte [13]
+01911958310i[SER   ]  -- COM 1 : read byte [42]
+01911974974i[SER   ]  -- COM 1 : read byte [48]
+01911991638i[SER   ]  -- COM 1 : read byte [13]
+01973608302i[SER   ]  -- COM 1 : read byte [42]
+01973624966i[SER   ]  -- COM 1 : read byte [48]
+01973641630i[SER   ]  -- COM 1 : read byte [13]
+02038058294i[SER   ]  -- COM 1 : read byte [42]
+02038074958i[SER   ]  -- COM 1 : read byte [48]
+02038091622i[SER   ]  -- COM 1 : read byte [13]
+02106908286i[SER   ]  -- COM 1 : read byte [42]
+02106924950i[SER   ]  -- COM 1 : read byte [49]
+02106941614i[SER   ]  -- COM 1 : read byte [13]
+02172158278i[SER   ]  -- COM 1 : read byte [42]
+02172174942i[SER   ]  -- COM 1 : read byte [48]
+02172191606i[SER   ]  -- COM 1 : read byte [13]
+02236608270i[SER   ]  -- COM 1 : read byte [42]
+02236624934i[SER   ]  -- COM 1 : read byte [48]
+02236641598i[SER   ]  -- COM 1 : read byte [13]
+02298658262i[SER   ]  -- COM 1 : read byte [42]
+02298674926i[SER   ]  -- COM 1 : read byte [48]
+02298691590i[SER   ]  -- COM 1 : read byte [13]
+02359908254i[SER   ]  -- COM 1 : read byte [42]
+02359924918i[SER   ]  -- COM 1 : read byte [48]
+02359941582i[SER   ]  -- COM 1 : read byte [13]
+02417958246i[SER   ]  -- COM 1 : read byte [42]
+02417974910i[SER   ]  -- COM 1 : read byte [48]
+02417991574i[SER   ]  -- COM 1 : read byte [13]
+02480408238i[SER   ]  -- COM 1 : read byte [42]
+02480424902i[SER   ]  -- COM 1 : read byte [48]
+02480441566i[SER   ]  -- COM 1 : read byte [13]
+02542458230i[SER   ]  -- COM 1 : read byte [42]
+02542474894i[SER   ]  -- COM 1 : read byte [48]
+02542491558i[SER   ]  -- COM 1 : read byte [13]
+02602108222i[SER   ]  -- COM 1 : read byte [42]
+02602124886i[SER   ]  -- COM 1 : read byte [48]
+02602141550i[SER   ]  -- COM 1 : read byte [13]
+02662158214i[SER   ]  -- COM 1 : read byte [42]
+02662174878i[SER   ]  -- COM 1 : read byte [48]
+02662191542i[SER   ]  -- COM 1 : read byte [13]
+02717008206i[SER   ]  -- COM 1 : read byte [42]
+02717024870i[SER   ]  -- COM 1 : read byte [48]
+02717041534i[SER   ]  -- COM 1 : read byte [13]
+02773458198i[SER   ]  -- COM 1 : read byte [42]
+02773474862i[SER   ]  -- COM 1 : read byte [48]
+02773491526i[SER   ]  -- COM 1 : read byte [13]
+02835508190i[SER   ]  -- COM 1 : read byte [42]
+02835524854i[SER   ]  -- COM 1 : read byte [48]
+02835541518i[SER   ]  -- COM 1 : read byte [13]
+02909558182i[SER   ]  -- COM 1 : read byte [42]
+02909574846i[SER   ]  -- COM 1 : read byte [48]
+02909591510i[SER   ]  -- COM 1 : read byte [13]
+02965608174i[SER   ]  -- COM 1 : read byte [42]
+02965624838i[SER   ]  -- COM 1 : read byte [48]
+02965641502i[SER   ]  -- COM 1 : read byte [13]
+03018458166i[SER   ]  -- COM 1 : read byte [42]
+03018474830i[SER   ]  -- COM 1 : read byte [48]
+03018491494i[SER   ]  -- COM 1 : read byte [13]
+03072508158i[SER   ]  -- COM 1 : read byte [42]
+03072524822i[SER   ]  -- COM 1 : read byte [48]
+03072541486i[SER   ]  -- COM 1 : read byte [13]
+03127758150i[SER   ]  -- COM 1 : read byte [42]
+03127774814i[SER   ]  -- COM 1 : read byte [48]
+03127791478i[SER   ]  -- COM 1 : read byte [13]
+03193808142i[SER   ]  -- COM 1 : read byte [42]
+03193824806i[SER   ]  -- COM 1 : read byte [48]
+03193841470i[SER   ]  -- COM 1 : read byte [13]
+03262258134i[SER   ]  -- COM 1 : read byte [42]
+03262274798i[SER   ]  -- COM 1 : read byte [48]
+03262291462i[SER   ]  -- COM 1 : read byte [13]
+03326708126i[SER   ]  -- COM 1 : read byte [42]
+03326724790i[SER   ]  -- COM 1 : read byte [48]
+03326741454i[SER   ]  -- COM 1 : read byte [13]
+03403158118i[SER   ]  -- COM 1 : read byte [42]
+03403174782i[SER   ]  -- COM 1 : read byte [49]
+03403191446i[SER   ]  -- COM 1 : read byte [13]
+03768408110i[SER   ]  -- COM 1 : read byte [42]
+03768424774i[SER   ]  -- COM 1 : read byte [48]
+03768441438i[SER   ]  -- COM 1 : read byte [13]
+03828458102i[SER   ]  -- COM 1 : read byte [42]
+03828474766i[SER   ]  -- COM 1 : read byte [48]
+03828491430i[SER   ]  -- COM 1 : read byte [13]
+03884908094i[SER   ]  -- COM 1 : read byte [42]
+03884924758i[SER   ]  -- COM 1 : read byte [48]
+03884941422i[SER   ]  -- COM 1 : read byte [13]
+03948158086i[SER   ]  -- COM 1 : read byte [42]
+03948174750i[SER   ]  -- COM 1 : read byte [48]
+03948191414i[SER   ]  -- COM 1 : read byte [13]
+04007808078i[SER   ]  -- COM 1 : read byte [42]
+04007824742i[SER   ]  -- COM 1 : read byte [48]
+04007841406i[SER   ]  -- COM 1 : read byte [13]
+04072658070i[SER   ]  -- COM 1 : read byte [42]
+04072674734i[SER   ]  -- COM 1 : read byte [48]
+04072691398i[SER   ]  -- COM 1 : read byte [13]
+04134308062i[SER   ]  -- COM 1 : read byte [42]
+04134324726i[SER   ]  -- COM 1 : read byte [49]
+04134341390i[SER   ]  -- COM 1 : read byte [13]
+04320358054i[SER   ]  -- COM 1 : read byte [42]
+04320374718i[SER   ]  -- COM 1 : read byte [48]
+04320391382i[SER   ]  -- COM 1 : read byte [13]
+04377608046i[SER   ]  -- COM 1 : read byte [42]
+04377624710i[SER   ]  -- COM 1 : read byte [48]
+04377641374i[SER   ]  -- COM 1 : read byte [13]
+04435258038i[SER   ]  -- COM 1 : read byte [42]
+04435274702i[SER   ]  -- COM 1 : read byte [48]
+04435291366i[SER   ]  -- COM 1 : read byte [13]
+04497308030i[SER   ]  -- COM 1 : read byte [42]
+04497324694i[SER   ]  -- COM 1 : read byte [48]
+04497341358i[SER   ]  -- COM 1 : read byte [13]
+04559358022i[SER   ]  -- COM 1 : read byte [42]
+04559374686i[SER   ]  -- COM 1 : read byte [48]
+04559391350i[SER   ]  -- COM 1 : read byte [13]
+04619408014i[SER   ]  -- COM 1 : read byte [42]
+04619424678i[SER   ]  -- COM 1 : read byte [48]
+04619441342i[SER   ]  -- COM 1 : read byte [13]
+04675058006i[SER   ]  -- COM 1 : read byte [42]
+04675074670i[SER   ]  -- COM 1 : read byte [48]
+04675091334i[SER   ]  -- COM 1 : read byte [13]
+04741507998i[SER   ]  -- COM 1 : read byte [42]
+04741524662i[SER   ]  -- COM 1 : read byte [48]
+04741541326i[SER   ]  -- COM 1 : read byte [13]
+04807157990i[SER   ]  -- COM 1 : read byte [42]
+04807174654i[SER   ]  -- COM 1 : read byte [48]
+04807191318i[SER   ]  -- COM 1 : read byte [13]
+04870407982i[SER   ]  -- COM 1 : read byte [42]
+04870424646i[SER   ]  -- COM 1 : read byte [49]
+04870441310i[SER   ]  -- COM 1 : read byte [13]
+05006057974i[SER   ]  -- COM 1 : read byte [42]
+05006074638i[SER   ]  -- COM 1 : read byte [48]
+05006091302i[SER   ]  -- COM 1 : read byte [13]
+05080107966i[SER   ]  -- COM 1 : read byte [42]
+05080124630i[SER   ]  -- COM 1 : read byte [48]
+05080141294i[SER   ]  -- COM 1 : read byte [13]
+05144157958i[SER   ]  -- COM 1 : read byte [42]
+05144174622i[SER   ]  -- COM 1 : read byte [48]
+05144191286i[SER   ]  -- COM 1 : read byte [13]
+05209007950i[SER   ]  -- COM 1 : read byte [42]
+05209024614i[SER   ]  -- COM 1 : read byte [49]
+05209041278i[SER   ]  -- COM 1 : read byte [13]
+05331057942i[SER   ]  -- COM 1 : read byte [42]
+05331074606i[SER   ]  -- COM 1 : read byte [48]
+05331091270i[SER   ]  -- COM 1 : read byte [13]
+05403507934i[SER   ]  -- COM 1 : read byte [42]
+05403524598i[SER   ]  -- COM 1 : read byte [48]
+05403541262i[SER   ]  -- COM 1 : read byte [13]
+05466357926i[SER   ]  -- COM 1 : read byte [42]
+05466374590i[SER   ]  -- COM 1 : read byte [48]
+05466391254i[SER   ]  -- COM 1 : read byte [13]
+05530407918i[SER   ]  -- COM 1 : read byte [42]
+05530424582i[SER   ]  -- COM 1 : read byte [48]
+05530441246i[SER   ]  -- COM 1 : read byte [13]
+05596457910i[SER   ]  -- COM 1 : read byte [42]
+05596474574i[SER   ]  -- COM 1 : read byte [49]
+05596491238i[SER   ]  -- COM 1 : read byte [13]
+05777707902i[SER   ]  -- COM 1 : read byte [42]
+05777724566i[SER   ]  -- COM 1 : read byte [48]
+05777741230i[SER   ]  -- COM 1 : read byte [13]
+05832957894i[SER   ]  -- COM 1 : read byte [42]
+05832974558i[SER   ]  -- COM 1 : read byte [48]
+05832991222i[SER   ]  -- COM 1 : read byte [13]
+05900207886i[SER   ]  -- COM 1 : read byte [42]
+05900224550i[SER   ]  -- COM 1 : read byte [48]
+05900241214i[SER   ]  -- COM 1 : read byte [13]
+05960657878i[SER   ]  -- COM 1 : read byte [42]
+05960674542i[SER   ]  -- COM 1 : read byte [48]
+05960691206i[SER   ]  -- COM 1 : read byte [13]
+06015107870i[SER   ]  -- COM 1 : read byte [42]
+06015124534i[SER   ]  -- COM 1 : read byte [48]
+06015141198i[SER   ]  -- COM 1 : read byte [13]
+06075957862i[SER   ]  -- COM 1 : read byte [42]
+06075974526i[SER   ]  -- COM 1 : read byte [48]
+06075991190i[SER   ]  -- COM 1 : read byte [13]
+06138407854i[SER   ]  -- COM 1 : read byte [42]
+06138424518i[SER   ]  -- COM 1 : read byte [48]
+06138441182i[SER   ]  -- COM 1 : read byte [13]
+06196857846i[SER   ]  -- COM 1 : read byte [42]
+06196874510i[SER   ]  -- COM 1 : read byte [48]
+06196891174i[SER   ]  -- COM 1 : read byte [13]
+06258907838i[SER   ]  -- COM 1 : read byte [42]
+06258924502i[SER   ]  -- COM 1 : read byte [48]
+06258941166i[SER   ]  -- COM 1 : read byte [13]
+06295757830i[SER   ]  -- COM 1 : read byte [42]
+06295774494i[SER   ]  -- COM 1 : read byte [49]
+06295791158i[SER   ]  -- COM 1 : read byte [13]
+06424607822i[SER   ]  -- COM 1 : read byte [42]
+06424624486i[SER   ]  -- COM 1 : read byte [49]
+06424641150i[SER   ]  -- COM 1 : read byte [13]
