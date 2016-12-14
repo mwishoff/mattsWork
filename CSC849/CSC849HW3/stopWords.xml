@@ -1,0 +1,9 @@
+<parameters>  
+  <stopper><word>a</word></stopper>
+  <stopper><word>the</word></stopper>
+  <stopper><word>is</word></stopper>
+  <stopper><word>at</word></stopper>
+  <stopper><word>of</word></stopper>
+  <stopper><word>on</word></stopper>
+  <stopper><word>and</word></stopper>
+</parameters>  

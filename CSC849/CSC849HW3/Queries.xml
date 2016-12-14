@@ -1,0 +1,61 @@
+<parameter>
+	<index>C:\Users\Matt\Documents\CSC\CSC849\CSC849HW3\IndriResults</index>
+	<count>10</count>
+	<!-- Three queries that make use of proximity operator -->
+	<query>
+		<number>0</number>
+		<!-- 
+			This query should return any information that pertains to the United States.
+			It is quite vague on purpose, as to see what will be the most important document the 
+			system returns to me.
+		-->
+		<text>#1(United States)</text>
+	</query>
+	<query>
+		<number>1</number>
+		<!-- 
+			Most of the results that were returned to me from the first query were about train stations, so
+			I thought I would search for train stations to see what it would return me as results. Anything to do with
+			a train station I treated as a valid result.
+		-->
+		<text>#1(train station)</text>
+	</query>
+	<query>
+		<number>2</number>
+		<!-- 
+			What I want to see is what TV shows the collection has in it's database. I'm not really looking for the words "TV shows", but if it returns
+			a TV show in the results I will accept it as a valid result. 
+		-->
+		<text>#1(TV Shows)</text>
+	</query>
+	<query>
+		<number>3</number>
+		<!-- 
+			I want results, that are about education.
+		-->
+		<text>edu*</text>
+	</query>
+	<query>
+		<number>4</number>
+		<!-- 
+			I want a list of universitys that the collection of documents contains. This is with the assumption that
+			the universitys name is in the title of the page, which I feel should be accurate.
+		-->
+		<text>University.title</text>
+	</query>
+	<query>
+		<number>5</number>
+		<!-- 
+			I want to see how many mathamatical documents the collection contains.
+		-->
+		<text>Math.body</text>
+	</query>
+	<query>
+		<number>6</number>
+		<!-- 
+			I want to see how many teacher biographies there are in this collection.
+		-->
+		<text>#syn(educator teacher)</text>
+	</query>
+
+</parameter>

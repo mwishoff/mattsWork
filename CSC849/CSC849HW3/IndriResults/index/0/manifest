@@ -1,0 +1,43 @@
+<parameters>
+	<code-build-date>Jun 21 2016</code-build-date>
+	<corpus>
+		<document-base>1</document-base>
+		<frequent-terms>192</frequent-terms>
+		<maximum-document>1432</maximum-document>
+		<total-documents>1431</total-documents>
+		<total-terms>1538329</total-terms>
+		<unique-terms>76061</unique-terms>
+	</corpus>
+	<fields>
+		<field>
+			<byte-offset>0</byte-offset>
+			<isNumeric>false</isNumeric>
+			<isOrdinal>false</isOrdinal>
+			<isParental>false</isParental>
+			<name>title</name>
+			<total-documents>1429</total-documents>
+			<total-terms>9195</total-terms>
+		</field>
+		<field>
+			<byte-offset>5734</byte-offset>
+			<isNumeric>false</isNumeric>
+			<isOrdinal>false</isOrdinal>
+			<isParental>false</isParental>
+			<name>body</name>
+			<total-documents>1429</total-documents>
+			<total-terms>1517818</total-terms>
+		</field>
+		<field>
+			<byte-offset>12900</byte-offset>
+			<isNumeric>false</isNumeric>
+			<isOrdinal>false</isOrdinal>
+			<isParental>false</isParental>
+			<name>h5</name>
+			<total-documents>1429</total-documents>
+			<total-terms>11039</total-terms>
+		</field>
+	</fields>
+	<indri-distribution>Indri development release 5.8</indri-distribution>
+	<type>DiskIndex</type>
+</parameters>
+

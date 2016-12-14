@@ -1,0 +1,78 @@
+Query 1 results #1(United States):
+-5.16615        clueweb09-enwp03-47-00252       0       1521
+-5.47994        clueweb09-enwp03-47-00302       0       3243
+-5.81135        clueweb09-enwp03-47-01181       0       2827
+-5.82956        clueweb09-enwp03-47-00319       0       6327
+-5.82956        clueweb09-enwp03-47-00318       0       6327
+-5.92894        clueweb09-enwp03-47-00629       0       4619
+-5.94304        clueweb09-enwp03-47-00837       0       4339
+-5.99294        clueweb09-enwp03-47-00270       0       2686
+-6.11666        clueweb09-enwp03-47-01028       0       4729
+-6.14823        clueweb09-enwp03-47-00663       0       282
+
+Query 2 results #1(Train Station):
+-7.88588        clueweb09-enwp03-47-01334       0       207
+-7.902  	clueweb09-enwp03-47-01119       0       251
+-7.91644        clueweb09-enwp03-47-01299       0       291
+-8.00189        clueweb09-enwp03-47-01034       0       540
+-8.00649        clueweb09-enwp03-47-00114       0       554
+-8.32107        clueweb09-enwp03-47-00378       0       1683
+-8.42884        clueweb09-enwp03-47-00257       0       2159
+-8.56582        clueweb09-enwp03-47-01169       0       2843
+-8.91766        clueweb09-enwp03-47-01427       0       5096
+-9.59735        clueweb09-enwp03-47-00706       0       12489
+
+Query 3 results #1(TV Shows):
+-7.1947 	clueweb09-enwp03-47-01313       0       221
+-7.26323        clueweb09-enwp03-47-00198       0       414
+-7.58839        clueweb09-enwp03-47-00344       0       5484
+-7.86774        clueweb09-enwp03-47-00085       0       222
+-7.92553        clueweb09-enwp03-47-00936       0       3151
+-7.96097        clueweb09-enwp03-47-00756       0       488
+-7.9926 	clueweb09-enwp03-47-01136       0       584
+-8.03203        clueweb09-enwp03-47-00392       0       3786
+-8.03203        clueweb09-enwp03-47-00345       0       3786
+-8.1059 	clueweb09-enwp03-47-00437       0       954
+
+Query 4 results edu*:
+-5.3268 	clueweb09-enwp03-47-00101       0       1128
+-5.61175        clueweb09-enwp03-47-00102       0       956
+-5.83952        clueweb09-enwp03-47-00865       0       6307
+-5.9138 	clueweb09-enwp03-47-00711       0       6616
+-6.32829        clueweb09-enwp03-47-00939       0       2895
+-6.33954        clueweb09-enwp03-47-01430       0       1823
+-6.4217 	clueweb09-enwp03-47-01256       0       348
+-6.43459        clueweb09-enwp03-47-00843       0       1008
+-6.4781 	clueweb09-enwp03-47-00805       0       1164
+-6.52765        clueweb09-enwp03-47-00104       0       8188
+
+Query 5 results University.title:
+-7.941  	clueweb09-enwp03-47-00094       0       333
+-8.02945        clueweb09-enwp03-47-01272       0       595
+-8.13977        clueweb09-enwp03-47-00102       0       956
+-8.18834        clueweb09-enwp03-47-00101       0       1128
+-8.8226 	clueweb09-enwp03-47-00062       0       4341
+
+Query 6 results Math.body:
+-6.32825        clueweb09-enwp03-47-00214       0       3692
+-7.52749        clueweb09-enwp03-47-00664       0       3175
+-7.59363        clueweb09-enwp03-47-00714       0       7534
+-7.85357        clueweb09-enwp03-47-00681       0       213
+-7.87328        clueweb09-enwp03-47-00612       0       267
+-7.88834        clueweb09-enwp03-47-00816       0       309
+-7.88977        clueweb09-enwp03-47-00238       0       313
+-7.91191        clueweb09-enwp03-47-00140       0       376
+-7.95479        clueweb09-enwp03-47-00922       0       502
+-8.06983        clueweb09-enwp03-47-00726       0       868
+
+Query 7 results #syn(educator teacher):
+-5.27556        clueweb09-enwp03-47-00102       0       956
+-5.35334        clueweb09-enwp03-47-00865       0       6307
+-5.38237        clueweb09-enwp03-47-00101       0       1128
+-5.92991        clueweb09-enwp03-47-00714       0       7534
+-6.26403        clueweb09-enwp03-47-00843       0       1008
+-6.32341        clueweb09-enwp03-47-00939       0       2895
+-6.32936        clueweb09-enwp03-47-00420       0       3488
+-6.33339        clueweb09-enwp03-47-01430       0       1823
+-6.39704        clueweb09-enwp03-47-00337       0       907
+-6.41157        clueweb09-enwp03-47-01256       0       348

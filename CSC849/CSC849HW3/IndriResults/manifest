@@ -1,0 +1,24 @@
+<parameters>
+	<field>
+		<name>title</name>
+	</field>
+	<field>
+		<name>body</name>
+	</field>
+	<field>
+		<name>h5</name>
+	</field>
+	<indexCount>1</indexCount>
+	<indexes>
+		<index>0</index>
+	</indexes>
+	<injectURL>true</injectURL>
+	<normalize>true</normalize>
+	<stemmer>
+		<name>porter</name>
+	</stemmer>
+	<stopper>
+		<word>a</word>
+	</stopper>
+</parameters>
+

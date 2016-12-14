@@ -1,0 +1,6 @@
+asus, google
+['DOC_1.txt', 'DOC_8.txt']
+screen, bad
+['DOC_3.txt']
+great, tablet
+['DOC_10.txt', 'DOC_2.txt', 'DOC_3.txt', 'DOC_6.txt']

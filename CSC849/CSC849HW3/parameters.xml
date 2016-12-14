@@ -1,0 +1,19 @@
+<parameters>
+  <index>C:\Users\Matt\Documents\CSC\CSC849\CSC849HW3\IndriResults</index>
+  <memory>1G</memory>
+  <corpus>
+    <path>C:\Users\Matt\Documents\CSC\CSC849\CSC849HW3\47.warc</path>
+    <class>warc</class>
+  </corpus>
+  <stopper><word>a</word></stopper>
+  <stopper><word>the</word></stopper>
+  <stopper><word>is</word></stopper>
+  <stopper><word>at</word></stopper>
+  <stopper><word>of</word></stopper>
+  <stopper><word>on</word></stopper>
+  <stopper><word>and</word></stopper>
+  <stemmer><name>porter</name></stemmer>
+  <field><name>title</name></field>
+  <field><name>body</name></field>
+  <field><name>h5</name></field>
+</parameters>
