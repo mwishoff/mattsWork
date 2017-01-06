@@ -1,0 +1,12 @@
+=================================
+BM1BMPrograms21.cpp
+PLOC Count: 6091
+LLOC Count: 4692
+If statement Count: 161
+for loop Count: 151
+while loop Count: 184
+switch statement Count: 46
+function statement Count: 43
+Semi Colon Count: 3578
+Equal sign Count 378 - - (Data def only)
+=================================
