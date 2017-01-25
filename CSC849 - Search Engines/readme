@@ -1,1 +1,6 @@
+HW2 is an expansion of HW1.
 
+HW1 is a basic inverted index boolean retrieval search engine.
+HW2 is a more advanced search engine, using TF.IDF scoring to score relevant documents.
+
+Changes were made after H1 when making HW2 to make it object oriented and more scalable in the future.
