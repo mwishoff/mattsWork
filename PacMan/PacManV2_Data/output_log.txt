@@ -1,0 +1,889 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7653
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Matt\Documents\CSC\Unity\PacMan\PacManV2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Matt\Documents\CSC\Unity\PacMan\PacManV2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Matt\Documents\CSC\Unity\PacMan\PacManV2_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Matt\Documents\CSC\Unity\PacMan\PacManV2_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Matt\Documents\CSC\Unity\PacMan\PacManV2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Matt\Documents\CSC\Unity\PacMan\PacManV2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Matt\Documents\CSC\Unity\PacMan\PacManV2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Matt\Documents\CSC\Unity\PacMan\PacManV2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Matt\Documents\CSC\Unity\PacMan\PacManV2_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Matt\Documents\CSC\Unity\PacMan\PacManV2_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.025 seconds
+Platform assembly: C:\Users\Matt\Documents\CSC\Unity\PacMan\PacManV2_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Matt\Documents\CSC\Unity\PacMan\PacManV2_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 5920x1080 at -2560,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.106569 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 44c -> priority: 1 
+  Thread -> id: 3148 -> priority: 1 
+In set color blue
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+inky in ghost house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+inky in ghost house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+inky in ghost house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ArgumentOutOfRangeException: Index is less than 0 or more than or equal to the list count.
+Parameter name: index
+-1
+  at System.Collections.ArrayList.ThrowNewArgumentOutOfRangeException (System.String name, System.Object actual, System.String message) [0x00000] in <filename unknown>:0 
+  at System.Collections.ArrayList.get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at GhostAI.targetPacmanNextIntersection (Vector3 currVect, Vector3 pacmanLoc, Vector3 pacmanLastLoc, .BoardData board, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at GhostAI.selectInkyMove (Vector3 currVect, Vector3 pacmanLoc, Vector3 pacmanLastLoc, .BoardData board, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at GhostAI.InkyMove (Vector3 currVect, Vector3 pacmanLoc, Vector3 pacmanLastLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at InkyMovement.getNextMove (Vector3 currVect, Vector3 pacmanLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at InkyMovement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+clyde in ghost house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ArgumentOutOfRangeException: Index is less than 0 or more than or equal to the list count.
+Parameter name: index
+1
+  at System.Collections.ArrayList.ThrowNewArgumentOutOfRangeException (System.String name, System.Object actual, System.String message) [0x00000] in <filename unknown>:0 
+  at System.Collections.ArrayList.get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at GhostAI.AStar (Vector3 currVect, Vector3 pacmanLoc, UnityEngine.Vector3& lastMove, .BoardData board) [0x00000] in <filename unknown>:0 
+  at GhostAI.selectClydeMove (Vector3 currVect, Vector3 pacmanLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at GhostAI.ClydeMove (Vector3 currVect, Vector3 pacmanLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at ClydeMovement.getNextMove (Vector3 currVect, Vector3 pacmanLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at ClydeMovement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+In set color blue
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+pinky in ghost house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ArgumentOutOfRangeException: Index is less than 0 or more than or equal to the list count.
+Parameter name: index
+1
+  at System.Collections.ArrayList.ThrowNewArgumentOutOfRangeException (System.String name, System.Object actual, System.String message) [0x00000] in <filename unknown>:0 
+  at System.Collections.ArrayList.get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at GhostAI.AStar (Vector3 currVect, Vector3 pacmanLoc, UnityEngine.Vector3& lastMove, .BoardData board) [0x00000] in <filename unknown>:0 
+  at ghostMovement.goToCenter (Vector3 currVect, UnityEngine.Vector3& lastMove, .BoardData board) [0x00000] in <filename unknown>:0 
+  at PinkyMovement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+inky in ghost house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ArgumentOutOfRangeException: Index is less than 0 or more than or equal to the list count.
+Parameter name: index
+-1
+  at System.Collections.ArrayList.ThrowNewArgumentOutOfRangeException (System.String name, System.Object actual, System.String message) [0x00000] in <filename unknown>:0 
+  at System.Collections.ArrayList.get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at GhostAI.targetPacmanNextIntersection (Vector3 currVect, Vector3 pacmanLoc, Vector3 pacmanLastLoc, .BoardData board, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at GhostAI.selectInkyMove (Vector3 currVect, Vector3 pacmanLoc, Vector3 pacmanLastLoc, .BoardData board, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at GhostAI.InkyMove (Vector3 currVect, Vector3 pacmanLoc, Vector3 pacmanLastLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at InkyMovement.getNextMove (Vector3 currVect, Vector3 pacmanLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at InkyMovement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+blinky in ghost house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ArgumentOutOfRangeException: Index is less than 0 or more than or equal to the list count.
+Parameter name: index
+1
+  at System.Collections.ArrayList.ThrowNewArgumentOutOfRangeException (System.String name, System.Object actual, System.String message) [0x00000] in <filename unknown>:0 
+  at System.Collections.ArrayList.get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at GhostAI.AStar (Vector3 currVect, Vector3 pacmanLoc, UnityEngine.Vector3& lastMove, .BoardData board) [0x00000] in <filename unknown>:0 
+  at ghostMovement.goToCenter (Vector3 currVect, UnityEngine.Vector3& lastMove, .BoardData board) [0x00000] in <filename unknown>:0 
+  at BlinkyMovement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Entering 20 seconds of chase mode.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+In set color blue
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+inky in ghost house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ArgumentOutOfRangeException: Index is less than 0 or more than or equal to the list count.
+Parameter name: index
+-1
+  at System.Collections.ArrayList.ThrowNewArgumentOutOfRangeException (System.String name, System.Object actual, System.String message) [0x00000] in <filename unknown>:0 
+  at System.Collections.ArrayList.get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at GhostAI.targetPacmanNextIntersection (Vector3 currVect, Vector3 pacmanLoc, Vector3 pacmanLastLoc, .BoardData board, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at GhostAI.selectInkyMove (Vector3 currVect, Vector3 pacmanLoc, Vector3 pacmanLastLoc, .BoardData board, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at GhostAI.InkyMove (Vector3 currVect, Vector3 pacmanLoc, Vector3 pacmanLastLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at InkyMovement.getNextMove (Vector3 currVect, Vector3 pacmanLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at InkyMovement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+blinky in ghost house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ArgumentOutOfRangeException: Index is less than 0 or more than or equal to the list count.
+Parameter name: index
+1
+  at System.Collections.ArrayList.ThrowNewArgumentOutOfRangeException (System.String name, System.Object actual, System.String message) [0x00000] in <filename unknown>:0 
+  at System.Collections.ArrayList.get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at GhostAI.AStar (Vector3 currVect, Vector3 pacmanLoc, UnityEngine.Vector3& lastMove, .BoardData board) [0x00000] in <filename unknown>:0 
+  at ghostMovement.goToCenter (Vector3 currVect, UnityEngine.Vector3& lastMove, .BoardData board) [0x00000] in <filename unknown>:0 
+  at BlinkyMovement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Entering 7 seconds of Scatter mode.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ArgumentOutOfRangeException: Index is less than 0 or more than or equal to the list count.
+Parameter name: index
+1
+  at System.Collections.ArrayList.ThrowNewArgumentOutOfRangeException (System.String name, System.Object actual, System.String message) [0x00000] in <filename unknown>:0 
+  at System.Collections.ArrayList.get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at GhostAI.AStar (Vector3 currVect, Vector3 pacmanLoc, UnityEngine.Vector3& lastMove, .BoardData board) [0x00000] in <filename unknown>:0 
+  at GhostAI.scatterPathCalc (Vector3 ghostPos, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at GhostAI.InkyMove (Vector3 currVect, Vector3 pacmanLoc, Vector3 pacmanLastLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at InkyMovement.getNextMove (Vector3 currVect, Vector3 pacmanLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at InkyMovement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Entering 20 seconds of chase mode.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+In set color blue
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Something went wrong, inky ghost collision
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Ghost hasn't reached house yet.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+checking for ghost in house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+inky in ghost house***********************
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ArgumentOutOfRangeException: Index is less than 0 or more than or equal to the list count.
+Parameter name: index
+1
+  at System.Collections.ArrayList.ThrowNewArgumentOutOfRangeException (System.String name, System.Object actual, System.String message) [0x00000] in <filename unknown>:0 
+  at System.Collections.ArrayList.get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at GhostAI.AStar (Vector3 currVect, Vector3 pacmanLoc, UnityEngine.Vector3& lastMove, .BoardData board) [0x00000] in <filename unknown>:0 
+  at ghostMovement.goToCenter (Vector3 currVect, UnityEngine.Vector3& lastMove, .BoardData board) [0x00000] in <filename unknown>:0 
+  at InkyMovement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Index is less than 0 or more than or equal to the list count.
+Parameter name: index
+1
+  at System.Collections.ArrayList.ThrowNewArgumentOutOfRangeException (System.String name, System.Object actual, System.String message) [0x00000] in <filename unknown>:0 
+  at System.Collections.ArrayList.get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at GhostAI.AStar (Vector3 currVect, Vector3 pacmanLoc, UnityEngine.Vector3& lastMove, .BoardData board) [0x00000] in <filename unknown>:0 
+  at GhostAI.BlinkyMove (Vector3 currVect, Vector3 pacmanLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at BlinkyMovement.getNextMove (Vector3 currVect, Vector3 pacmanLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at BlinkyMovement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Index is less than 0 or more than or equal to the list count.
+Parameter name: index
+-1
+  at System.Collections.ArrayList.ThrowNewArgumentOutOfRangeException (System.String name, System.Object actual, System.String message) [0x00000] in <filename unknown>:0 
+  at System.Collections.ArrayList.get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at GhostAI.targetPacmanNextIntersection (Vector3 currVect, Vector3 pacmanLoc, Vector3 pacmanLastLoc, .BoardData board, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at GhostAI.PinkyMove (Vector3 currVect, Vector3 pacmanLoc, Vector3 pacmanLastLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at PinkyMovement.getNextMove (Vector3 currVect, Vector3 pacmanLoc, .BoardData board, UnityEngine.Vector3[] ScatterTiles, UnityEngine.Vector3& lastMove) [0x00000] in <filename unknown>:0 
+  at PinkyMovement.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.203366 ms
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 323.
+Total: 0.307358 ms (FindLiveObjects: 0.023308 ms CreateObjectMapping: 0.030024 ms MarkObjects: 0.161580 ms  DeleteObjects: 0.092049 ms)
+
