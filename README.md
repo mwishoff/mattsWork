@@ -2,7 +2,6 @@
 This is work that I have done for school, as well as personal projects.
 
 School Projects:
-
 CSC413 - Android Application
 
 CSC648 - Software Development website
@@ -17,7 +16,6 @@ CSC415 - JavascriptOS
 
 
 Personal Projects:
-
 Pacman
 
 Video game recommendation system
