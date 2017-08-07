@@ -25,9 +25,8 @@ using namespace std;
 		for(int i=0; i<n; i++) 				\
 			for(int j=0; j<n; j++) 			\
 				for(int k=0; k<n; k++)		\
-				{\GLOBAL_BODY_COUNTER[0]++;
-					DO_MULTIPLY_##method;\
-				}
+					DO_MULTIPLY_##method;
+				
 					
 						
 #define DO_MULTIPLY_IKJ(method)	 			\
@@ -35,45 +34,40 @@ using namespace std;
 		for(int i=0; i<n; i++) 				\
 			for(int k=0; k<n; k++)			\
 				for(int j=0; j<n; j++)		\
-					{\GLOBAL_BODY_COUNTER[1]++;
-					DO_MULTIPLY_##method;\
-				}
+					DO_MULTIPLY_##method;
+				
 						
 #define DO_MULTIPLY_KJI(method)	 			\
 	for(int m=0; m<M; m++)					\
 		for(int k=0; k<n; k++) 				\
 			for(int j=0; j<n; j++)			\
 				for(int i=0; i<n; i++)		\
-				{\GLOBAL_BODY_COUNTER[2]++;
-					DO_MULTIPLY_##method;\
-				}
+					DO_MULTIPLY_##method;
+				
 						
 #define DO_MULTIPLY_KIJ(method)	 			\
 	for(int m=0; m<M; m++) 					\
 		for(int k=0; k<n; k++) 				\
 			for(int i=0; i<n; i++)			\
 				for(int j=0; j<n; j++)		\
-				{\GLOBAL_BODY_COUNTER[3]++;
-					DO_MULTIPLY_##method;\
-				}
+					DO_MULTIPLY_##method;
+				
 						
 #define DO_MULTIPLY_JKI(method)	 			\
 	for(int m=0; m<M; m++) 					\
 		for(int j=0; j<n; j++) 				\
 			for(int k=0; k<n; k++)			\
 				for(int i=0; i<n; i++)		\
-				{\GLOBAL_BODY_COUNTER[4]++;
-					DO_MULTIPLY_##method;\
-				}
+					DO_MULTIPLY_##method;
+				
 						
 #define DO_MULTIPLY_JIK(method)	 			\
 	for(int m=0; m<M; m++) 					\
 		for(int j=0; j<n; j++) 				\
 			for(int i=0; i<n; i++)			\
 				for(int k=0; k<n; k++)		\
-				{\GLOBAL_BODY_COUNTER[5]++;
-					DO_MULTIPLY_##method;\
-				}
+					DO_MULTIPLY_##method;
+				
 						
 #define MULTIPLY(method) 																												\
 		startTime = chrono::steady_clock::now(); 																						\
@@ -114,20 +108,20 @@ using namespace std;
 int TEST_NUM = 0;
 double RUN_TIME[NUM_OF_TESTS][((NMAX - NMIN) / STEP) + 1];
 
-long int GLOBAL_BODY_COUNTER[18];
+long int GLOBAL_BODY_COUNTER[12];
 
 int main(int argc, char**argv)
-{GLOBAL_BODY_COUNTER[6]++;
+{ /* Times ran 1 */GLOBAL_BODY_COUNTER[0]++;
 	chrono::steady_clock::time_point startTime, stopTime;
 	int col = 0;
 	int M ;
 
 	// Initialize 
 	for(int n=NMIN; n <= NMAX; n+=STEP, col++) //increase size of matrix
-	{GLOBAL_BODY_COUNTER[7]++;
+	{ /* Times ran 21 */GLOBAL_BODY_COUNTER[1]++;
 		M =(NMAX*NMAX*NMAX)/(n*n*n);
 		if(M < 4)
-		{GLOBAL_BODY_COUNTER[8]++;
+		{ /* Times ran 10 */GLOBAL_BODY_COUNTER[2]++;
 			M = 4;
 		}
 		double** a = new double*[n]; //Initialize to the min, the next iteration will step by 20
@@ -136,7 +130,7 @@ int main(int argc, char**argv)
 		
 		cout << "before init" << endl;
 		for(int i = 0; i < n; i++)
-		{GLOBAL_BODY_COUNTER[9]++;
+		{ /* Times ran 6300 */GLOBAL_BODY_COUNTER[3]++;
 			a[i] = new double[n];
 			b[i] = new double[n];
 			c[i] = new double[n];
@@ -145,15 +139,15 @@ int main(int argc, char**argv)
 		// Matrix a[ ][ ], b[ ][ ], and c[ ][ ] initialization
 		for(int i=0; i<n; i++) 
 			for(int j=0; j<n; j++)
-			{GLOBAL_BODY_COUNTER[10]++;
+			{ /* Times ran 2198000 */GLOBAL_BODY_COUNTER[4]++;
 				//Initialize diagonal to 2.0002, and everywhere else to 1.0001
 				if(i == j)
-				{GLOBAL_BODY_COUNTER[11]++;
+				{ /* Times ran 6300 */GLOBAL_BODY_COUNTER[5]++;
 					a[i][j] = 2.0002;
 					b[i][j] = 2.0002;
 				}
 				else
-				{GLOBAL_BODY_COUNTER[12]++;
+				{ /* 2191700 */GLOBAL_BODY_COUNTER[6]++;
 					a[i][j] = 1.0001;
 					b[i][j] = 1.0001;
 				}
@@ -171,7 +165,7 @@ int main(int argc, char**argv)
 		
 		//Delete dynamic array of pointers.
 		for(int i = 0; i < n; i++)
-		{GLOBAL_BODY_COUNTER[13]++;
+		{ /* Times ran 6300 */GLOBAL_BODY_COUNTER[7]++;
 				delete[] a[i];
 				delete[] b[i];
 				delete[] c[i];
@@ -185,15 +179,15 @@ int main(int argc, char**argv)
 	freopen ("MatrixMultiplicationWithBatteryPower5Iterations.txt","w",stdout);
 	
 	for(int i = 0; i < NUM_OF_TESTS; i++) // this is correct
-	{GLOBAL_BODY_COUNTER[14]++;
+	{ /* Times ran 48 */GLOBAL_BODY_COUNTER[8]++;
 		for(int j = 0; j <= (NMAX - NMIN) / STEP; j++)
-		{GLOBAL_BODY_COUNTER[15]++;
+		{ /* Times ran 1008 */GLOBAL_BODY_COUNTER[9]++;
 			if(j == (NMAX - NMIN) / STEP)
-			{GLOBAL_BODY_COUNTER[16]++;
+			{ /* Times ran 48 */GLOBAL_BODY_COUNTER[10]++;
 				cout << RUN_TIME[i][j];
 			}
 			else
-			{GLOBAL_BODY_COUNTER[17]++;
+			{ /* Times ran 960 */GLOBAL_BODY_COUNTER[11]++;
 				cout << RUN_TIME[i][j] << ", "; //Print a row of data
 			}	
 		}
@@ -206,7 +200,7 @@ int main(int argc, char**argv)
 	freopen ("DataForMatrixMultiplicationProject2.txt","w",stdout);
 
 	cout << "Times Ran " << endl;
-	for(int i = 0; i < 18; i++)
+	for(int i = 0; i < 12; i++)
 		cout << GLOBAL_BODY_COUNTER[i] << endl;
 
 	return 0;

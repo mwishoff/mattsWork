@@ -9,7 +9,7 @@ import datetime
 
 def main():
     print("Booting main ...")
-    # send_memes()
+    send_memes()
 
     print(datetime.datetime.today().date())
 
