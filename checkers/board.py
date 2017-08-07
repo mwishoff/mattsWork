@@ -1,15 +1,18 @@
 # This class will represent the checkers board.
 
 """
-a   O   O   O   O
-b O   O   O   O
-c   O   O   O   O
-d -   -   -   -
-e   -   -   -   -
-f x   x   x   x
-g   x   x   x   x
-h x   x   x   x
-~ 1 2 3 4 5 6 7 8
+  ~ 1 2 3 4 5 6 7 8
+  __________________
+a |   O   O   O   O | a
+b | O   O   O   O   | b
+c |   O   O   O   O | c
+d | -   -   -   -   | d
+e |   -   -   -   - | e
+f | x   x   x   x   | f
+g |   x   x   x   x | g
+h | x   x   x   x   | h
+  ------------------
+  ~ 1 2 3 4 5 6 7 8
 """
 
 
@@ -25,7 +28,32 @@ class Board:
         self.init_board_state()
 
     def print_board(self):
-        print("Nothing")
+        print("  ~ 1 2 3 4 5 6 7 8")
+        print("  __________________")
+        print("a |  ", self.board_state['a2'], " ", self.board_state['a4'], " ", self.board_state['a6'], " ", self.board_state['a8'], "| a")
+        print("b |", self.board_state['b1'], " ", self.board_state['b3'], " ", self.board_state['b5'], " ", self.board_state['b7'], "  | b")
+        print("c |  ", self.board_state['c2'], " ", self.board_state['c4'], " ", self.board_state['c6'], " ", self.board_state['c8'], "| c")
+        print("d |", self.board_state['d1'], " ", self.board_state['d3'], " ", self.board_state['d5'], " ", self.board_state['d7'], "  | d")
+        print("e |  ", self.board_state['e2'], " ", self.board_state['e4'], " ", self.board_state['e6'], " ", self.board_state['e8'], "| e")
+        print("f |", self.board_state['f1'], " ", self.board_state['f3'], " ", self.board_state['f5'], " ", self.board_state['f7'], "  | f")
+        print("g |  ", self.board_state['g2'], " ", self.board_state['g4'], " ", self.board_state['g6'], " ", self.board_state['g8'], "| g")
+        print("h |", self.board_state['h1'], " ", self.board_state['h3'], " ", self.board_state['h5'], " ", self.board_state['h7'], "  | h")
+        print("  ------------------")
+        print("  ~ 1 2 3 4 5 6 7 8")
+        """
+          ~ 1 2 3 4 5 6 7 8
+          __________________
+        a |   O   O   O   O | a
+        b | O   O   O   O   | b
+        c |   O   O   O   O | c
+        d | -   -   -   -   | d
+        e |   -   -   -   - | e
+        f | x   x   x   x   | f
+        g |   x   x   x   x | g
+        h | x   x   x   x   | h
+          ------------------
+          ~ 1 2 3 4 5 6 7 8
+        """
 
     def to_string(self):
         print("*********************************")
@@ -91,7 +119,6 @@ class Board:
                 self.board_state[location] = 'O'
             else:
                 print("ERROR: Init_board_state malfunction.", location, " unknown")
-
 
     def init_board_locations(self):
         print("init locations")

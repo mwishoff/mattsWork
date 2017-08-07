@@ -5,6 +5,7 @@ def main():
     print("Run main")
     new_board = Board()
     new_board.to_string()
+    new_board.print_board()
     # game_log = game_loop() # should return the list of moves/visual output so I can output it to a txt file.
 
 
