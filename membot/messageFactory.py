@@ -5,7 +5,7 @@ import datetime
 class MessageFactory:
 
     def __init__(self):
-        self.numbers = ["+16505808259", "+16502451399"]
+        self.numbers = ["+16505808259"]
         self.messages_to_send = []
         self.image_url = ""
         self.body = ""

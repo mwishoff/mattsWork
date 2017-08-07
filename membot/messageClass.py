@@ -12,9 +12,9 @@ class TwilioMessage:
         self.to = to_
         self.body = body_
         self.media_url = media_url_
-        self.twilio_number = "+14158516057"
-        self.account_sid = "ACa8d2173a73517ab31fde22f868474141"
-        self.auth_token = "fcf1d65f1bf6033a544c4e9983f5d18b"
+        self.twilio_number = ""
+        self.account_sid = ""
+        self.auth_token = ""
         self.client = Client(self.account_sid, self.auth_token)
         self.message = self.client
 
