@@ -1,6 +1,6 @@
 # This class will represent the checkers board.
 
-''''
+"""
 a   O   O   O   O
 b O   O   O   O
 c   O   O   O   O
@@ -10,7 +10,8 @@ f x   x   x   x
 g   x   x   x   x
 h x   x   x   x
 ~ 1 2 3 4 5 6 7 8
-''''
+"""
+
 
 class Board:
 
@@ -20,15 +21,29 @@ class Board:
         self.board_locations = []
 
         self.init_board_neighbors()
-        self.init_board_state()
         self.init_board_locations()
-        print("Nothing")
+        self.init_board_state()
 
     def print_board(self):
         print("Nothing")
 
     def to_string(self):
-        print("Nothing")
+        print("*********************************")
+
+        for key in self.board_neighbors:
+            print("Key: ", key, " Value: ", self.board_neighbors[key])
+
+        print("*********************************")
+
+        for key in self.board_state:
+            print("Key: ", key, " Value: ", self.board_state[key])
+
+        print("*********************************")
+
+        for location in self.board_locations:
+            print("Location: ", location)
+
+        print("*********************************")
 
     def init_board_neighbors(self):
         print("Init neighbors")
@@ -65,15 +80,14 @@ class Board:
         self.board_neighbors['a6'] = ['b5', 'b7']
         self.board_neighbors['a8'] = ['b7']
 
-
     def init_board_state(self):
         print("Init state")
         for location in self.board_locations:
-            if location.contains('h') or location.contains('g') or location.contains('f'):
+            if 'h' in location or 'g' in location or 'f' in location:
                 self.board_state[location] = 'X'
-            elif location.contains('e') or location.contains('d'):
+            elif 'e' in location or 'd' in location:
                 self.board_state[location] = '-'
-            elif locatioin.contains('c') or location.contains('b') or location.contains('a')
+            elif 'c' in location or 'b' in location or 'a' in location:
                 self.board_state[location] = 'O'
             else:
                 print("ERROR: Init_board_state malfunction.", location, " unknown")
@@ -81,11 +95,11 @@ class Board:
 
     def init_board_locations(self):
         print("init locations")
-        self.board_locations = ['h1', 'h3', 'h5', 'h7'
-                                'g2', 'g4', 'g6', 'g8'
-                                'f1', 'f3', 'f5', 'f7'
-                                'e2', 'e4', 'e6', 'e8'
-                                'd1', 'd3', 'd5', 'd7'
-                                'c2', 'c4', 'c6', 'c8'
-                                'b1', 'b3', 'b5', 'b7'
+        self.board_locations = ['h1', 'h3', 'h5', 'h7',
+                                'g2', 'g4', 'g6', 'g8',
+                                'f1', 'f3', 'f5', 'f7',
+                                'e2', 'e4', 'e6', 'e8',
+                                'd1', 'd3', 'd5', 'd7',
+                                'c2', 'c4', 'c6', 'c8',
+                                'b1', 'b3', 'b5', 'b7',
                                 'a2', 'a4', 'a6', 'a8']

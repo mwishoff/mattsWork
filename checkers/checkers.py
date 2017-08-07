@@ -1,11 +1,14 @@
 from board import Board
 
-def main:
+
+def main():
     print("Run main")
-    game_log = game_loop() # should return the list of moves/visual output so I can output it to a txt file.
+    new_board = Board()
+    new_board.to_string()
+    # game_log = game_loop() # should return the list of moves/visual output so I can output it to a txt file.
 
 
-def game_loop:
+def game_loop():
     game_won = False
     game_board = Board()
 
